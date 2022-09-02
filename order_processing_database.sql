@@ -1,5 +1,3 @@
-WHENEVER SQLERROR EXIT FAILURE ROLLBACK
-
 -- Remove tables to prepare for re-creation.
 DROP TABLE order_list;
 DROP TABLE food_order;
